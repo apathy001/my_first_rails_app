@@ -1,0 +1,73 @@
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting XAUTHORITY=/home/lemongrab/.Xauthority
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting LANG=en_PH.UTF-8
+dbus-update-activation-environment: setting GDM_LANG=en_US
+dbus-update-activation-environment: setting DISPLAY=:0
+dbus-update-activation-environment: setting GTK_OVERLAY_SCROLLING=0
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/lemongrab
+dbus-update-activation-environment: setting USER=lemongrab
+dbus-update-activation-environment: setting DESKTOP_SESSION=xubuntu
+dbus-update-activation-environment: setting QT_QPA_PLATFORMTHEME=gtk2
+dbus-update-activation-environment: setting PWD=/home/lemongrab
+dbus-update-activation-environment: setting HOME=/home/lemongrab
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=x11
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=xubuntu
+dbus-update-activation-environment: setting CLUTTER_BACKEND=x11
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting IM_CONFIG_PHASE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting SHLVL=1
+dbus-update-activation-environment: setting LANGUAGE=en_PH:en
+dbus-update-activation-environment: setting GDMSESSION=xubuntu
+dbus-update-activation-environment: setting LOGNAME=lemongrab
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting XAUTHORITY=/home/lemongrab/.Xauthority
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/etc/xdg
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+dbus-update-activation-environment: setting _=/usr/bin/dbus-update-activation-environment
+
+(xfce4-session:1111): xfce4-session-WARNING **: 22:48:05.326: xfsm_manager_load_session: Something wrong with /home/lemongrab/.cache/sessions/xfce4-session-lemongrab-VirtualBox:0, Does it exist? Permissions issue?
+
+(polkit-gnome-authentication-agent-1:1137): GLib-CRITICAL **: 22:48:07.845: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-gnome-authentication-agent-1:1137): polkit-gnome-1-WARNING **: 22:48:07.865: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+
+(xfsettingsd:1144): xfsettingsd-WARNING **: 22:48:10.084: Failed to get the _NET_NUMBER_OF_DESKTOPS property.
+
+(wrapper-2.0:1264): GLib-GIO-CRITICAL **: 22:48:17.171: g_file_new_for_path: assertion 'path != NULL' failed
+
+** (wrapper-2.0:1267): WARNING **: 22:48:17.185: No outputs have backlight property
+
+(wrapper-2.0:1264): GLib-GIO-CRITICAL **: 22:48:17.204: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:1264): GLib-GObject-WARNING **: 22:48:17.204: invalid (NULL) pointer instance
+
+(wrapper-2.0:1264): GLib-GObject-CRITICAL **: 22:48:17.204: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:1264): Gtk-WARNING **: 22:48:17.204: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+(nm-applet:1143): Gtk-WARNING **: 22:48:18.294: Can't set a parent on widget which has a parent
+
+(wrapper-2.0:1264): Gtk-WARNING **: 22:48:18.318: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:1268): Gtk-WARNING **: 22:48:18.672: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:1267): Gtk-WARNING **: 22:48:20.085: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:1259): Gtk-WARNING **: 22:48:20.242: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(xfwm4:1122): xfwm4-WARNING **: 22:48:34.600: output size (958x530) and logical screen size (1366x663) do not match
+
+(xfwm4:1122): xfwm4-WARNING **: 22:48:37.759: output size (725x417) and logical screen size (958x530) do not match
+/usr/lib/python3/dist-packages/blueman/plugins/applet/AppIndicator.py:8: PyGIWarning: AppIndicator3 was imported without specifying a version first. Use gi.require_version('AppIndicator3', '0.1') before import to ensure that the right version gets loaded.
+  from gi.repository import AppIndicator3 as girAppIndicator
+ERROR:dbus.proxies:Introspect error on org.bluez:/org/bluez: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+ERROR:dbus.proxies:Introspect error on org.bluez:/: dbus.exceptions.DBusException: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
